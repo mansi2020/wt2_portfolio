@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useCallback, useEffect,useState } from "react";
+import "./App.css";
+import Aside from "./Component/Aside/Aside";
+import About from "./Component/About/About";
+import Certificates from './Component/Certificates/Certificates'
+import Projectsmain from "./Component/Projects/ProjectMain/Projectsmain";
+import MainSection from "./Component/MainSection/MainSection";
 
 function App() {
+  let [isVisible,setIsVisible] = useState("About");
+  let data = (value)=>{
+    setIsVisible(value);
+    // console.log(value,"value in app js");
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Aside></Aside>
+      <div className="app-main-container">
+        <MainSection isVisibleData={data}></MainSection>
+        {
+          isVisible == "About" && <About></About>
+        }
+        {
+          isVisible == "Certificates" && <Certificates></Certificates>
+        }
+        {
+          isVisible == "Projects" && <Projectsmain></Projectsmain>
+        }
+      </div>
     </div>
   );
 }
-
 export default App;

@@ -1,0 +1,15 @@
+.about-cards{
+    display:flex;
+    padding:2rem;
+    gap:1.5rem;
+}
+.about-card-content>h1{
+    margin-bottom: 20px;;
+}
+
+.about-card-image>img{
+    width:50px;
+}
+.about-card-content{
+    width:100%;
+}

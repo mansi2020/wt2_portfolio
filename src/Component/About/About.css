@@ -1,0 +1,53 @@
+
+
+/* headings */
+h3{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* section */
+section{
+    margin:2rem 0;
+}
+
+/* about-description */
+.about-description{
+    border:2px solid black;
+}
+
+/* about-primary-focus section */
+.about-primary-focus-cards,.about-explore-activity-cards,.about-favourite-activity{
+    display:flex;
+    width:100%;
+    gap:1rem;
+    flex-wrap: wrap;
+   
+}
+.about-primary-focus-card{
+    display: flex;
+    width:49%;
+    border:2px solid black;
+    padding:1rem;
+    gap:1rem;
+}
+
+/* programming languages */
+.about-programming-scroll{
+    border:2px solid green;
+    padding:1rem;
+}
+.about-programming-scroll-input>input{
+    width:100%;
+}
+.about-programming-scroll-input>span{
+    margin-left: 20px;
+}
+
+/* next button */
+.nextBtn{
+    position: absolute;
+    right:30px;
+}
+
+/* scroll bar animation */

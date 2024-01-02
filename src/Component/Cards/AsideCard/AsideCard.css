@@ -1,0 +1,6 @@
+/* main container */
+.about-aside-card{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+}

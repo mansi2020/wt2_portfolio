@@ -1,0 +1,21 @@
+/* development-skill-container */
+.development-skill-carasouel{
+    display:flex;
+    gap:20px;
+    overflow: hidden;
+    width:150rem;
+    padding:20px;
+    border:2px solid grey;
+}
+.development-skill-carasouel>img{
+    width:149px;
+    height:149px;
+}
+.development-skill-carasouel>img:hover{
+    box-shadow: 2px 2px 10px yellow;
+}
+
+.development-skill-container{
+    width:100%;
+    overflow: scroll;
+}

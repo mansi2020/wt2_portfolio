@@ -1,0 +1,12 @@
+
+.header-list{
+    padding:1rem 3rem;
+    width:fit-content;
+    background-color: black;
+}
+.header-container>ul{
+    display:flex;
+    gap:2rem;
+    color:white;
+   
+}
