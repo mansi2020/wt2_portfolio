@@ -1,0 +1,77 @@
+/* morecard css */
+.morecard-container{
+    width:48%;
+    background-color: #216075;
+    border-radius: 2rem;
+    color:white;
+}
+
+/* image */
+.morecard-img{
+    overflow: hidden;
+}
+.morecard-img>img{
+    width:100%;
+    height:280px;
+    border-radius: 2rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.morecard-img>img:hover{
+    transform: scale(1.1);
+}
+
+/* morecard content */
+.morcard-content-sub{
+    padding:1rem;
+}
+.morecard-heading{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-size: 15px;
+    color:#D6D6D6B2;
+}
+.morecard-heading>div{
+    height:5px;
+    width:5px;
+    background-color:#D6D6D6B2;
+    border-radius: 50%;
+}
+.morecard-content>h1{
+    font-size: 24px;
+    color:#FAFAFA;
+    margin:10px 0;
+}
+.morecard-description{
+    color:#D6D6D6;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+/* button */
+.morecard-buttons-container{
+    width:100%;
+    padding:0 5px 16px 5px;
+}
+.morecard-buttons{
+    background-color:#214C5E;
+    width:100%;
+    color:#FFDB70;
+    border: none;
+    padding:3px 0;
+    border-radius: 0.4rem;
+    display: flex;
+    margin-bottom: 3px;
+    gap:10px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 2px 2px 6px #FFDB70;
+    cursor: pointer;
+}
+.morecard-buttons:hover{
+    background-color:#064057;
+}

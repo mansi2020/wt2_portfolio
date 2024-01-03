@@ -1,5 +1,20 @@
 .project-main-cards{
-    display:flex;
-    gap:2rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:3rem;
+    column-gap: 1.5rem;
     flex-wrap:wrap;
+}
+.project-category{
+    margin:30px 0px;
+    display:flex;
+    gap:30px;
+    list-style: none;
+}
+.project-category li:hover{
+    color:rgb(254,209,106);
+}
+.project-category li{
+    color:#D6D6D6;
+    cursor: pointer;
 }

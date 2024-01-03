@@ -4,3 +4,10 @@
     gap:1rem;
     align-items: center;
 }
+.about-aside-card-icon{
+    background-color:#202e35;
+    padding:10px 18px;
+    border-radius: 8px;
+    color:#ffdb70;
+}
+

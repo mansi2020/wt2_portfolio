@@ -7,9 +7,16 @@
     margin-bottom: 20px;;
 }
 
-.about-card-image>img{
-    width:50px;
-}
 .about-card-content{
     width:100%;
+}
+
+.about-card-content>h1{
+    font-size: 18px;
+    margin-bottom: 16px;
+    color:white;
+}
+.about-card-content>p{
+    font-size: 15px;
+    color:#D6D6D6;
 }

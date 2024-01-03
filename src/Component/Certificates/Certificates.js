@@ -4,18 +4,24 @@ import Header from "./../Header/Header"; //Header component
 import "./../../App.css";
 import CertificateData from "./CertificateData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; //fontawesome component
-import { faLanguage, faLaptopCode, faUser } from "@fortawesome/free-solid-svg-icons";
-
+import {
+  faLanguage,
+  faLaptopCode,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Certificates = () => {
   return (
     <div className="certificate-container">
       {/* header */}
-      {/* <Header heading="My Certificates"></Header> */}
+      <div className="common-header">
+        <h1>My Certificates</h1>
+        <div></div>
+      </div>
 
       {/* Technical Competence */}
       <section className="certificate-technical-competence">
-        <div style={{ display: "flex" }}>
+        <div className="certificate-heading">
           <span className="certificate-icon">
             <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon>
           </span>
@@ -26,10 +32,13 @@ const Certificates = () => {
             {CertificateData.map((item, idx) => {
               if (idx < 5) {
                 return (
-                  <li>
+                  <li className="certificate-li-list1">
                     <h4>{item.title}</h4>
                     <p>{item.subtitle}</p>
+                    <div className="certificate-img">
                     <img src={item.img} alt="" />
+                    </div>
+                    
                   </li>
                 );
               }
@@ -40,7 +49,7 @@ const Certificates = () => {
 
       {/* Professional Skills */}
       <section className="certificate-technical-competence">
-        <div style={{ display: "flex" }}>
+        <div className="certificate-heading">
           <span className="certificate-icon">
             <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
           </span>
@@ -50,12 +59,14 @@ const Certificates = () => {
         <div className="certificate-technical-list">
           <ol>
             {CertificateData.map((item, idx) => {
-              if (idx>=5 && idx < 11) {
+              if (idx >= 5 && idx < 11) {
                 return (
-                  <li>
+                  <li className="certificate-li-list2">
                     <h4>{item.title}</h4>
                     <p>{item.subtitle}</p>
+                    <div className="certificate-img">
                     <img src={item.img} alt="" />
+                    </div>
                   </li>
                 );
               }
@@ -66,22 +77,24 @@ const Certificates = () => {
 
       {/*Language Proficiency */}
       <section className="certificate-technical-competence">
-        <div style={{ display: "flex" }}>
+        <div className="certificate-heading">
           <span className="certificate-icon">
-            <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faLanguage}></FontAwesomeIcon>
           </span>
-          <h1>Professional Skills</h1>
+          <h1>Language Proficiency</h1>
         </div>
 
-        <div className="certificate-technical-list">
+        <div className="certificate-technical-list certificate-technical-list3">
           <ol>
             {CertificateData.map((item, idx) => {
-              if ( idx >= 11) {
+              if (idx >= 11) {
                 return (
-                  <li>
+                  <li className="certificate-li-list3">
                     <h4>{item.title}</h4>
                     <p>{item.subtitle}</p>
+                    <div className="certificate-img">
                     <img src={item.img} alt="" />
+                    </div>
                   </li>
                 );
               }

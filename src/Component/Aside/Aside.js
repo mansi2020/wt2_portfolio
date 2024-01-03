@@ -31,7 +31,7 @@ const Aside = () => {
       setAsideBtnText(randomNum);
       if (counter == 20) {
         clearInterval(interval);
-        setAsideBtnText("Hello, World");
+        setAsideBtnText("Hello, World!");
       }
     }, 100);
   }, []);
@@ -55,11 +55,11 @@ const Aside = () => {
       <div className="aside-content">
         {/* name and image */}
         <div className="aside-name-image">
-          <img src={ProfileImage} alt="" />
-          <h2>Mansi Sorathiya</h2>
-          <Button id="aside-button" text={asideBtnText}></Button>
+          <img src="https://oktayshakirov.com/assets/images/avatar.jpg" alt="" />
+          <h2>Oktay Shakirov</h2>
+          <button className="aside-button">{asideBtnText}</button>
         </div>
-        <hr />
+        <hr className="aside-line"/>
         {/* personal details */}
         <div className="aside-personal-details">
           <AboutAsideCard

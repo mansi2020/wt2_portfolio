@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --background-color1 : #22CDF8;
+    --background-color2 : #0f8aaf;
+    --background-color3 : #0b89af;
+    --background-color4 : #236398;
+}
+
+body{
+    overflow-x:hidden;
 }
 
 .app-container{
@@ -9,12 +22,56 @@
     width:100vw;
     display: flex;
     gap:2.5rem;
+    background:linear-gradient(var(--background-color1),var(--background-color2),var(--background-color3),var(--background-color4));
 }
 
 /* all container common style */
-.about-container,.certificate-container,.project-main-container{
+.about-container,.certificate-container,.project-main-container,.moremain-container,.contact-container{
     width:70vw;
-    border:2px solid black;
+    height:auto;
+    border:1px solid black;
     padding:2rem;
     position: relative;
+    background:linear-gradient(rgb(33,135,160),#217690,rgb(34,116,144),#235f7e,#235676,#244e70);
+    border-radius: 1.2rem;
+    position: relative;
+}
+
+/* all heading common */
+.common-header>h1{
+    color:white;
+}
+.common-header>div{
+    background: linear-gradient(rgb(253,216,110),rgb(255,194,96));
+    width:40px;
+    border-radius: 10px;
+    height:6px;
+    margin-top: 1rem;
+}
+
+/* next button */
+.nextBtn{
+    background-color: #1f4564;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    color:white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 10px #1f4564;
+    font-size: 16px;
+}
+.next-button-container{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-primary-focus-card{
+    margin-top: 2rem;
+}
+.nextBtn:hover{
+    box-shadow: 2px 2px 10px white;
+}
+button{
+    cursor: pointer;
 }

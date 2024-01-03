@@ -4,7 +4,7 @@ import './AboutCard.css'; //css file
 
 const AboutCard = (props) => {
   return (
-    <div className={props.className}>
+    <div className={props.className} style={props.style}>
         <div className="about-card-image">
             <img src={props.img} alt="" />
         </div>

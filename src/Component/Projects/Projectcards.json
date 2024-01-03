@@ -2,80 +2,80 @@
   {
     "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
     "title": "MyBestWishes AI Generator",
-    "detail": "website Design + Frontend",
+    "detail": "Design + Frontend",
     "technology": "Figma | React.js | Chakra UI"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "MyBestWishes AI Generator",
-    "detail": "Application",
+    "img": "https://oktayshakirov.com/assets/images/projects/myworkphoto.png",
+    "title": "MyWorkPhoto AI Generator",
+    "detail": "Design + Frontend",
     "technology": "Figma | React.js | Chakra UI"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "MyBestWishes AI Generator",
-    "detail": "website Fullstack Project",
-    "technology": "Figma | React.js | Chakra UI"
+    "img": "https://oktayshakirov.com/assets/images/projects/ogno-dashboard.png",
+    "title": "Ogno Marketing Dashboard",
+    "detail": "Fullstack Project",
+    "technology": "React.js | Strapi.js | MySQL"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Website + Chatbot",
+    "img": "https://oktayshakirov.com/assets/images/projects/bayer-askmed.png",
+    "title": "AskMed By Bayer",
     "detail": "Website + Chatbot",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "Drupal | PHP | CSS"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Website + Admin Panel",
+    "img": "https://oktayshakirov.com/assets/images/projects/enemzet.png",
+    "title": "EnEmZet Online Store",
     "detail": "Website + Admin Panel",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "Next.js | TypeScript | MySQL"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Website",
+    "img": "https://oktayshakirov.com/assets/images/projects/tinnitus-blog.png",
+    "title": "Beyond Tinnitus Blog",
     "detail": "Website",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "Next.js | TypeScript | Material-UI"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Website + Admin Panel",
+    "img": "https://oktayshakirov.com/assets/images/projects/watch_store.png",
+    "title": "Timeazon Online Store",
     "detail": "Website + Admin Panel",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "React.js | Node.js | MySQL | Sass"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Application",
+    "img": "https://oktayshakirov.com/assets/images/projects/weather-app.png",
+    "title": "Weather App",
     "detail": "Application",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "JavaScript | API's | CSS"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Web Game",
+    "img": "https://oktayshakirov.com/assets/images/projects/pigletz-matching.png",
+    "title": "Pigletz Memory Game",
     "detail": "Web Game",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "JavaScript | CSS"
   },
 
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Application",
+    "img": "https://oktayshakirov.com/assets/images/projects/team-manager.png",
+    "title": "Team Management Tool",
     "detail": "Application",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "PHP | CSV Data | CSS"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Website",
+    "img": "https://oktayshakirov.com/assets/images/projects/portfolio.png",
+    "title": "Personal Portfolio",
     "detail": "Website",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "JavaScript | CSS | HTML"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Game",
+    "img": "https://oktayshakirov.com/assets/images/projects/quiz.png",
+    "title": "Quiz Time",
     "detail": "Game",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "PHP | CSS | HTML"
   },
   {
-    "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
-    "title": "Application",
+    "img": "https://oktayshakirov.com/assets/images/projects/berlinew.jpg",
+    "title": "BerliNEW Android App",
     "detail": "Application",
-    "technology": "Figma | React.js | Chakra UI"
+    "technology": "Wordpress | Android SDK"
   }
 ]
