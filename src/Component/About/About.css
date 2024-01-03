@@ -1,112 +1,109 @@
-
-
+/* ----------------------------------------about section------------------------------------------------ */
 /* headings */
-h3{
-    text-align: center;
-    margin-bottom: 1rem;
-    color:white;
-    font-size: 1.5rem;
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* section */
-section{
-    margin:2rem 0;
+section {
+  margin: 2rem 0;
 }
 
 /* about-description */
-.about-description{
-    border-radius: 16px;
-    background:linear-gradient(#21677a,#0e6b85);
-    padding:2rem;
-    color:#D6D6D6;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.about-description {
+  border-radius: 16px;
+  background: linear-gradient(#21677a, #0e6b85);
+  padding: 2rem;
+  color: #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.about-description > p{
-    font-size: 15px;
-    font-weight: 300;
+.about-description > p {
+  font-size: 15px;
+  font-weight: 300;
 }
-.about-description > button{
-    margin-top: 2rem;
-    color:#D6D6D6;
-    background-color: transparent;
-    border: none;
-    text-align: center;
-    animation: translateYAnimation 1s infinite alternate;
+.about-description > button {
+  margin-top: 2rem;
+  color: #d6d6d6;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  animation: translateYAnimation 1s infinite alternate;
 }
 
 @keyframes translateYAnimation {
-    from {
-      transform: translateY(0); 
-    }
-    to {
-      transform: translateY(10px); 
-    }
+  from {
+    transform: translateY(0);
   }
+  to {
+    transform: translateY(10px);
+  }
+}
 
 /* about-primary-focus section */
-.about-primary-focus-cards,.about-explore-activity-cards,.about-favourite-activity{
-    display:flex;
-    width:100%;
-    gap:1rem;
-    flex-wrap: wrap;
-   
+.about-primary-focus-cards,
+.about-explore-activity-cards,
+.about-favourite-activity {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.about-primary-focus-card{
-    display: flex;
-    width:49%;
-    padding:1.7rem;
-    gap:1rem;
-    border-radius: 1rem;
-    background: linear-gradient( to bottom right, #2a545f,#236274, #216276);
+.about-primary-focus-card {
+  display: flex;
+  width: 49%;
+  padding: 1.7rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom right, #2a545f, #236274, #216276);
 }
-.about-primary-focus-cards img,.about-explore-activity-cards img{
-    width:40px;
+.about-primary-focus-cards img,
+.about-explore-activity-cards img {
+  width: 40px;
 }
 
 /* programming languages */
-.about-programming-scroll{
-    background: linear-gradient( to bottom right, #2a545f,#2c4e5a, #215469);
-    padding:2rem 2.5rem;
-    border-radius: 1.1rem;
+.about-programming-scroll {
+  background: linear-gradient(to bottom right, #2a545f, #2c4e5a, #215469);
+  padding: 2rem 2.5rem;
+  border-radius: 1.1rem;
 }
-.about-programming-scroll{
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    color:white;
+.about-programming-scroll {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
 }
-.about-programming-scroll-input>input{
-    width:100%;
+.about-programming-scroll-input > input {
+  width: 100%;
 }
-.about-programming-scroll-input>span{
-    margin-left: 20px;
-    font-size: 15px;
-    color:#D6D6D6;
+.about-programming-scroll-input > span {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #d6d6d6;
 }
 
 /* favourite activities */
-.about-favourite-activity{
-    margin-top: 3rem;
+.about-favourite-activity {
+  margin-top: 3rem;
 }
-.about-primary-focus-card{
-    position: relative;
+.about-primary-focus-card {
+  position: relative;
 }
-.about-favourite-activity img{
-    height:70px;
-    width:70px;
-    position: absolute;
-    top:-2rem;
+.about-favourite-activity img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: -2rem;
 }
-.about-favourite-activity h1{
-    margin-left:5rem;
-    transform: translateY(-10px);
+.about-favourite-activity h1 {
+  margin-left: 5rem;
+  transform: translateY(-10px);
 }
-.about-favourite-activity p{
-    transform: translateY(-15px);
+.about-favourite-activity p {
+  transform: translateY(-15px);
 }
-
-
-
-

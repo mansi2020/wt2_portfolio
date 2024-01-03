@@ -1,37 +1,37 @@
 [
-    {
-        "language" : "JavaScript",
-        "percentage" : "80"
-    },
-    {
-        "language" : "TypeScript",
-        "percentage" : "40"
-    },
-    {
-        "language" : "HTML",
-        "percentage" : "100"
-    },
-    {
-        "language" : "CSS",
-        "percentage" : "90"
-    },
-    {
-        "language" : "JAVA",
-        "percentage" : "80"
-    },
-    {
-        "language" : "English",
-        "percentage" : "70",
-        "type":"Intermediate"
-    },
-    {
-        "language" : "Gujarati",
-        "percentage" : "100",
-        "type":"Native"
-    },
-    {
-        "language" : "Hindi",
-        "percentage" : "90",
-        "type" : "Intermediate"
-    }
+  {
+    "language": "JavaScript",
+    "percentage": "80"
+  },
+  {
+    "language": "TypeScript",
+    "percentage": "40"
+  },
+  {
+    "language": "HTML",
+    "percentage": "100"
+  },
+  {
+    "language": "CSS",
+    "percentage": "90"
+  },
+  {
+    "language": "JAVA",
+    "percentage": "80"
+  },
+  {
+    "language": "English",
+    "percentage": "70",
+    "type": "Intermediate"
+  },
+  {
+    "language": "Gujarati",
+    "percentage": "100",
+    "type": "Native"
+  },
+  {
+    "language": "Hindi",
+    "percentage": "90",
+    "type": "Intermediate"
+  }
 ]

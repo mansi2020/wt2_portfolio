@@ -1,6 +1,5 @@
 import React from "react";
 import "./Certificates.css";
-import Header from "./../Header/Header"; //Header component
 import "./../../App.css";
 import CertificateData from "./CertificateData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; //fontawesome component
@@ -36,9 +35,8 @@ const Certificates = () => {
                     <h4>{item.title}</h4>
                     <p>{item.subtitle}</p>
                     <div className="certificate-img">
-                    <img src={item.img} alt="" />
+                      <img src={item.img} alt="" />
                     </div>
-                    
                   </li>
                 );
               }
@@ -65,7 +63,7 @@ const Certificates = () => {
                     <h4>{item.title}</h4>
                     <p>{item.subtitle}</p>
                     <div className="certificate-img">
-                    <img src={item.img} alt="" />
+                      <img src={item.img} alt="" />
                     </div>
                   </li>
                 );
@@ -93,7 +91,7 @@ const Certificates = () => {
                     <h4>{item.title}</h4>
                     <p>{item.subtitle}</p>
                     <div className="certificate-img">
-                    <img src={item.img} alt="" />
+                      <img src={item.img} alt="" />
                     </div>
                   </li>
                 );

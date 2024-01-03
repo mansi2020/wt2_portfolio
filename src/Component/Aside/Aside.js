@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ProfileImage from "./../Assets/profileImage.jpg"; //profile image
 import "./Aside.css"; //css file
-import Button from "./../Button/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; //fontawesome component
 import {
   faLocationDot,
@@ -55,11 +53,14 @@ const Aside = () => {
       <div className="aside-content">
         {/* name and image */}
         <div className="aside-name-image">
-          <img src="https://oktayshakirov.com/assets/images/avatar.jpg" alt="" />
+          <img
+            src="https://oktayshakirov.com/assets/images/avatar.jpg"
+            alt=""
+          />
           <h2>Oktay Shakirov</h2>
           <button className="aside-button">{asideBtnText}</button>
         </div>
-        <hr className="aside-line"/>
+        <hr className="aside-line" />
         {/* personal details */}
         <div className="aside-personal-details">
           <AboutAsideCard

@@ -1,53 +1,52 @@
 [
-    {
-        "img" : "https://oktayshakirov.com/assets/images/icon-dev.svg",
-        "title" : "Web Design & Development",
-        "details" : "Creating attractive, easy-to-use websites that work well for businesses and individuals online."
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/icon-app.svg",
-        "title" : "Mobile Apps & Games",
-        "details" : "Creating and developing engaging mobile apps and games for iOS and Android devices."
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/icon-frameworks.svg",
-        "title" : "Development Solutions",
-        "details" : "Utilizing JavaScript frameworks like React, Node, Next, Vue and more to build interactive web applications."
-    },
-    {
-        "img" :"https://oktayshakirov.com/assets/images/icon-marketing.svg",
-        "title" : "Marketing & SEO",
-        "details" : "Using SEO and marketing strategies to boost online visibility and promote products or services."
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/icon-video.svg",
-        "title" : "Visual Storytelling",
-        "details" : "Taking and editing photos or videos that tell engaging stories, bringing concepts and ideas to life visually."
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/icon-multimedia.svg",
-        "title" : "Digital Content Creation",
-        "details" : "Creatiing dynamic digital content, such as 3D models, graphics or animations."
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/finances.png",
-        "title" : "Investments",
-        "details" : "Exploring Stocks, Crypto and Long-Term Growth Opportunities for Financial Investment"
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/music.png",
-        "title" : "Music",
-        "details" : "Creating Instrumentals, Mixing and Mastering Tracks and Collaborating with Musicians"
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/traveling.png",
-        "title" : "Traveling",
-        "details" : "Exploring new places, learn about different cultures and create lifelong memories."
-    },
-    {
-        "img" : "https://oktayshakirov.com/assets/images/camera.png",
-        "title" : "Photography",
-        "details" : "Capturing precious moments and memories through the lens of a camera."
-    }
-
+  {
+    "img": "https://oktayshakirov.com/assets/images/icon-dev.svg",
+    "title": "Web Design & Development",
+    "details": "Creating attractive, easy-to-use websites that work well for businesses and individuals online."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/icon-app.svg",
+    "title": "Mobile Apps & Games",
+    "details": "Creating and developing engaging mobile apps and games for iOS and Android devices."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/icon-frameworks.svg",
+    "title": "Development Solutions",
+    "details": "Utilizing JavaScript frameworks like React, Node, Next, Vue and more to build interactive web applications."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/icon-marketing.svg",
+    "title": "Marketing & SEO",
+    "details": "Using SEO and marketing strategies to boost online visibility and promote products or services."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/icon-video.svg",
+    "title": "Visual Storytelling",
+    "details": "Taking and editing photos or videos that tell engaging stories, bringing concepts and ideas to life visually."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/icon-multimedia.svg",
+    "title": "Digital Content Creation",
+    "details": "Creatiing dynamic digital content, such as 3D models, graphics or animations."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/finances.png",
+    "title": "Investments",
+    "details": "Exploring Stocks, Crypto and Long-Term Growth Opportunities for Financial Investment"
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/music.png",
+    "title": "Music",
+    "details": "Creating Instrumentals, Mixing and Mastering Tracks and Collaborating with Musicians"
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/traveling.png",
+    "title": "Traveling",
+    "details": "Exploring new places, learn about different cultures and create lifelong memories."
+  },
+  {
+    "img": "https://oktayshakirov.com/assets/images/camera.png",
+    "title": "Photography",
+    "details": "Capturing precious moments and memories through the lens of a camera."
+  }
 ]

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./Projectsmain.css";
 import "./../../../App.css";
-import Header from "./../../Header/Header"; //header
 import Projectcard from "../Projectcard/Projectcard"; //projectcard
 import ProjectcardsData from "./../Projectcards.json"; //project cards alll data
 

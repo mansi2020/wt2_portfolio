@@ -1,29 +1,28 @@
-/* header ui */
-.header-list{
-    padding:1rem 3rem;
-    width:fit-content;
+/* -----------------------------------------header style------------------------------*/
+.header-list {
+  padding: 1rem 3rem;
+  width: fit-content;
 }
-.header-container>ul{
-    display:flex;
-    gap:2rem;
-    color:white;  
-    list-style: none;
-    height:100%;
-    
+.header-container > ul {
+  display: flex;
+  gap: 2rem;
+  color: white;
+  list-style: none;
+  height: 100%;
 }
-.header-container>ul>li{
-    font-size: 15px;
-    cursor: pointer;
+.header-container > ul > li {
+  font-size: 15px;
+  cursor: pointer;
 }
-.header-container{
-    position: absolute;
-    z-index: 10;
-    right:32px;
-    border:1px solid black;
-    background-color: #284249;
-    border-radius: 0 1.2rem 0 1.2rem;
+.header-container {
+  position: absolute;
+  z-index: 10;
+  right: 32px;
+  border: 1px solid black;
+  background-color: #284249;
+  border-radius: 0 1.2rem 0 1.2rem;
 }
 
-.header-container>ul>li:hover{
-    color:#FFDB70;
+.header-container > ul > li:hover {
+  color: #ffdb70;
 }

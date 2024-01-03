@@ -1,54 +1,53 @@
-/* project card style */
-.project-card-img>img{
-    width:250px;
-    height:150px;
-    border-radius: 20px; 
-    transition: all 0.4s;
+/* --------------------------project card style --------------------------*/
+.project-card-img > img {
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  transition: all 0.4s;
 }
-.project-card-img{
-    width:250px;
-    height:150px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-bottom: 5px;
-    cursor: pointer;
+.project-card-img {
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  cursor: pointer;
 }
-.project-card-img>img:hover{
-    transform: scale(1.1);
-}
-
-.project-card-content{
-    text-align: center;
-    margin-bottom: 1rem;
-}
-.project-card-content>h4{
-    color:white;
-    font-weight: 300;
-}
-.project-card-content>p{
-    font-size: 15px;
-    color:#D6D6D6B2;
-    font-weight: 300;
-}
-.project-cards{
-    color:#FFDB70;
-    background-color: #225e75;
-    width:100%;
-    border:none;
-    border-radius: 6px;
-    padding:6px 0;
-    transition: all 0.4s;
-    display:flex;
-    gap:7px;
-    font-size: 16px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 2px 2px 6px #FFDB70;
-}
-.project-cards:first-child{
-    margin-bottom: 4px;
-}
-.project-cards:hover{
-    background-color:#064057;
+.project-card-img > img:hover {
+  transform: scale(1.1);
 }
 
+.project-card-content {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.project-card-content > h4 {
+  color: white;
+  font-weight: 300;
+}
+.project-card-content > p {
+  font-size: 15px;
+  color: #d6d6d6b2;
+  font-weight: 300;
+}
+.project-cards {
+  color: #ffdb70;
+  background-color: #225e75;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 0;
+  transition: all 0.4s;
+  display: flex;
+  gap: 7px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 2px 2px 6px #ffdb70;
+}
+.project-cards:first-child {
+  margin-bottom: 4px;
+}
+.project-cards:hover {
+  background-color: #064057;
+}

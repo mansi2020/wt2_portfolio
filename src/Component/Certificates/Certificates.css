@@ -1,95 +1,92 @@
-/* certificate */
-.certificate-technical-list>ol>li img{
-    width:100%;
-    height:100%;
+/*---------------------------- certificate-------------------------------- */
+.certificate-technical-list > ol > li img {
+  width: 100%;
+  height: 100%;
 }
 
-.certificate-icon{
-    color:#ffdb70;
-    font-size: 1rem;
-    height:40px;
-    width:45px;
-    border-radius: 8px;
-    background-color: #203137;
-    margin-right: 1rem;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.certificate-icon {
+  color: #ffdb70;
+  font-size: 1rem;
+  height: 40px;
+  width: 45px;
+  border-radius: 8px;
+  background-color: #203137;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.certificate-technical-competence{
-    color:white;
-    margin-top: 3rem;
+.certificate-technical-competence {
+  color: white;
+  margin-top: 3rem;
 }
-.certificate-img{
-    width:30%;
-    height:auto;
-    border:10px solid black;
-    padding:5px;
-    display:flex;
-    align-items: center;
+.certificate-img {
+  width: 30%;
+  height: auto;
+  border: 10px solid black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
 }
-.certificate-line1{
-    transform: rotate(90dec);
+.certificate-line1 {
+  transform: rotate(90dec);
 }
-.certificate-technical-list h4{
-    font-weight: bold;
+.certificate-technical-list h4 {
+  font-weight: bold;
 }
-.certificate-technical-list p{
-    font-size: 15px;
-    color:#D6D6D6;
+.certificate-technical-list p {
+  font-size: 15px;
+  color: #d6d6d6;
 }
-.certificate-heading{
-    display:flex;
-    margin-bottom: 25px;
+.certificate-heading {
+  display: flex;
+  margin-bottom: 25px;
 }
-.certificate-technical-list ol{
-    margin-left: 65px;
-    list-style: none;
-    position: relative;
-}
-
-.certificate-technical-list ol li{
-    margin-bottom: 1.5rem;
-}
-.certificate-technical-list>ol>li>h4::before{
-    content:"";
-    position: absolute;
-    height:6px;
-    width:6px;
-    left:-48px;
-    border-radius: 50%;
-    border:5px solid rgb(32,49,55);
-    background-color: #ffdb70;
-    z-index: 10;
+.certificate-technical-list ol {
+  margin-left: 65px;
+  list-style: none;
+  position: relative;
 }
 
-.certificate-li-list1::before{
-    
-    content: "";
-        position: absolute;
-        left:-42px;
-        top:-25px;
-        width: 1px;
-        background: black;
-        height:85%;
+.certificate-technical-list ol li {
+  margin-bottom: 1.5rem;
 }
-.certificate-li-list2::before{
-    
-    content: "";
-        position: absolute;
-        left:-42px;
-        top:-25px;
-        width: 1px;
-        background: black;
-        height:86%;
+.certificate-technical-list > ol > li > h4::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  left: -48px;
+  border-radius: 50%;
+  border: 5px solid rgb(32, 49, 55);
+  background-color: #ffdb70;
+  z-index: 10;
 }
-.certificate-li-list3::before{
-    
-    content: "";
-        position: absolute;
-        left:-42px;
-        top:-25px;
-        width: 1px;
-        background: black;
-        height:60%;
+
+.certificate-li-list1::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: -25px;
+  width: 1px;
+  background: black;
+  height: 85%;
+}
+.certificate-li-list2::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: -25px;
+  width: 1px;
+  background: black;
+  height: 86%;
+}
+.certificate-li-list3::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: -25px;
+  width: 1px;
+  background: black;
+  height: 60%;
 }

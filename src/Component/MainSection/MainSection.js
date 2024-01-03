@@ -6,8 +6,6 @@ const MainSection = (props) => {
   let onChangeCat= (e,val)=>{
     setIsVisible(val);
     props.isVisibleData(val);
-    // props.isVisible = val;
-    // console.log(val,"val in mainsection");
   }
 
   return (

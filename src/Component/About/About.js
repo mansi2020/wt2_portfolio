@@ -1,17 +1,14 @@
 import { useEffect, useState } from "react";
 import "./About.css"; //about cs
 import Header from "../Header/Header"; //header component
-import AboutCard from './../Cards/AboutCard/AboutCard'  //about cards component
-import cardData from './AboutCardData.json'; //card data
-import languageData from './ProgramminglanData.json' //languages data
-import DeveopmentSkill from './DevelopmentSkill/DevelopmentSkill'  //DeveopmentSkill section
-import Button from './../Button/Button'
-import './../../App.css'
+import AboutCard from "./../Cards/AboutCard/AboutCard"; //about cards component
+import cardData from "./AboutCardData.json"; //card data
+import languageData from "./ProgramminglanData.json"; //languages data
+import DeveopmentSkill from "./DevelopmentSkill/DevelopmentSkill"; //DeveopmentSkill section
+import Button from "./../Button/Button";
+import "./../../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; //fontawesome component
-import {
-  faChevronRight
-} from "@fortawesome/free-solid-svg-icons";
-
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   // use state for para text--------------
@@ -22,73 +19,23 @@ const About = () => {
     setAboutDetail(!aboutDetail);
   };
 
-
-  //!useeefect for scrollbar
-  // const [isElementVisible, setElementVisible] = useState(false);
-  // const [scrollValues, setScrollValues] = useState(languageData.map(item => 0));
-  // useEffect(() => {
-  //   const handleScroll = () => {
-      
-  //     const targetElement = document.querySelector('.about-programming-lang'); // Replace with the actual id of your target element
-
-  //     if (targetElement) {
-  //       const elementRect = targetElement.getBoundingClientRect();
-  //       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-
-  //       // Check if the element is in the viewport
-  //       if (elementRect.top < windowHeight && elementRect.bottom >= 0) {
-  //         document.querySelector(".scroll-input").classList.add('about-scrollbar-check');
-  //         // console.log("true");
-  //         // setElementVisible(true);
-
-  //         // Animate the input range
-  //         languageData.forEach((item, idx) => {
-  //           const max = item.percentage;
-  //           let value = 0;
-  //           const interval = setTimeout(() => {
-  //             if (value < max) {
-  //               value =max;
-  //               // Update the state variable
-  //               setScrollValues(prevValues => {
-  //                 const newValues = [...prevValues];
-  //                 newValues[idx] = value;
-  //                 return newValues;
-  //               });
-  //             } 
-  //           }, 1000);
-  //         });
-  //       } else {
-  //         // setElementVisible(false);
-  //         console.log("mansi");
-  //       }
-  //     }
-  //   };
-
-  //   // Attach the scroll event listener
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   // Cleanup the event listener when the component is unmounted
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
   return (
     <div className="about-container">
       {/* header */}
 
       <div className="common-header">
-      <h1>About Me</h1>
-      <div></div>
+        <h1>About Me</h1>
+        <div></div>
       </div>
-      
 
       {/* about description */}
       <section className="about-description">
         {aboutDetail ? (
           <p>
-            Hello there! 👋 My name is Oktay and I'm from Berlin, Germany. As a Full-Stack software developer. Currently honing my skills at Geekster, I am
-            passionate about creating captivating and user-friendly websites.
+            Hello there! 👋 My name is Oktay and I'm from Berlin, Germany. As a
+            Full-Stack software developer. Currently honing my skills at
+            Geekster, I am passionate about creating captivating and
+            user-friendly websites.
             <br />
             While I am still in the process of expanding my expertise, my
             enthusiasm for front-end development has allowed me to immerse
@@ -127,101 +74,114 @@ const About = () => {
       </section>
 
       {/* primary focus section */}
-    <section className="about-primary-focus">
+      <section className="about-primary-focus">
         <h3>Primary Focus</h3>
         <div className="about-primary-focus-cards">
-            {
-                cardData.map((item,idx)=>{
-                  if(idx < 4){
-                    return <AboutCard key={idx} {...item} className="about-primary-focus-card"></AboutCard>
-                  }
-                    
-                })
+          {cardData.map((item, idx) => {
+            if (idx < 4) {
+              return (
+                <AboutCard
+                  key={idx}
+                  {...item}
+                  className="about-primary-focus-card"
+                ></AboutCard>
+              );
             }
-            
+          })}
         </div>
-    </section>
+      </section>
 
-    {/* Exploring Creativity */}
-    <section className="about-explore-activity">
+      {/* Exploring Creativity */}
+      <section className="about-explore-activity">
         <h3>Exploring Creativity</h3>
         <div className="about-explore-activity-cards">
-            {
-                cardData.map((item,idx)=>{
-                  if(idx >3 && idx<6){
-                    return <AboutCard key={idx} {...item} className="about-primary-focus-card"></AboutCard>
-                  }
-                    
-                })
+          {cardData.map((item, idx) => {
+            if (idx > 3 && idx < 6) {
+              return (
+                <AboutCard
+                  key={idx}
+                  {...item}
+                  className="about-primary-focus-card"
+                ></AboutCard>
+              );
             }
-            
+          })}
         </div>
-    </section>
+      </section>
 
-    {/* Programming Languages */}
-    <section className="about-programming-lang">
-            <h3>Programming Languages</h3>
-            <div className="about-programming-scroll">
-              {
-                languageData.map((item,idx)=>{
-                  if(idx <=4 ){
-                    return <div className="about-programming-scroll-input">
-                    <label htmlFor="">{item.language}</label>
-                    <span>{item.percentage}%</span>
-                    <br />
-                    <input type="range" value={item.percentage} className="scroll-input" ></input>
-                  </div>
-                  } 
-                  
-                })
-              }
-            </div>
-    </section>
+      {/* Programming Languages */}
+      <section className="about-programming-lang">
+        <h3>Programming Languages</h3>
+        <div className="about-programming-scroll">
+          {languageData.map((item, idx) => {
+            if (idx <= 4) {
+              return (
+                <div className="about-programming-scroll-input">
+                  <label htmlFor="">{item.language}</label>
+                  <span>{item.percentage}%</span>
+                  <br />
+                  <input
+                    type="range"
+                    value={item.percentage}
+                    className="scroll-input"
+                  ></input>
+                </div>
+              );
+            }
+          })}
+        </div>
+      </section>
 
-    {/* Human Languages */}
-    <section className="about-programming-lang">
-            <h3>Human Languages</h3>
-            <div className="about-programming-scroll">
-              {
-                languageData.map((item,idx)=>{
-                  if(idx > 4 ){
-                    return <div className="about-programming-scroll-input">
-                    <label htmlFor="">{item.language}</label>
-                    <span>{item.type}</span>
-                    <br />
-                    <input type="range" value={item.percentage} ></input>
-                  </div>
-                  } 
-                  
-                })
-              }
-            </div>
-    </section>
+      {/* Human Languages */}
+      <section className="about-programming-lang">
+        <h3>Human Languages</h3>
+        <div className="about-programming-scroll">
+          {languageData.map((item, idx) => {
+            if (idx > 4) {
+              return (
+                <div className="about-programming-scroll-input">
+                  <label htmlFor="">{item.language}</label>
+                  <span>{item.type}</span>
+                  <br />
+                  <input type="range" value={item.percentage}></input>
+                </div>
+              );
+            }
+          })}
+        </div>
+      </section>
 
-    {/* Development Skills */}
-    <section className="about-development-skill">
+      {/* Development Skills */}
+      <section className="about-development-skill">
         <DeveopmentSkill></DeveopmentSkill>
-    </section>
+      </section>
 
-     {/* Favorite Activities */}
-     <section className="about-favourite-activities">
-        <h3 style={{marginBottom:"0"}}>Favorite Activities</h3>
+      {/* Favorite Activities */}
+      <section className="about-favourite-activities">
+        <h3 style={{ marginBottom: "0" }}>Favorite Activities</h3>
         <div className="about-favourite-activity">
-        {
-                cardData.map((item,idx)=>{
-                  if(idx>=6){
-                    return <AboutCard key={idx} {...item} className="about-primary-focus-card" style={{padding:"1rem",background:"#22455e"}}></AboutCard>
-                  }
-                    
-                })
+          {cardData.map((item, idx) => {
+            if (idx >= 6) {
+              return (
+                <AboutCard
+                  key={idx}
+                  {...item}
+                  className="about-primary-focus-card"
+                  style={{ padding: "1rem", background: "#22455e" }}
+                ></AboutCard>
+              );
             }
+          })}
         </div>
-     </section>
+      </section>
 
-     {/* next button */}
-     <div className="next-button-container">
-        <button className="nextBtn">Next<FontAwesomeIcon icon={faChevronRight} /></button>
-     </div>
+      {/* next button */}
+      <div className="next-button-container">
+        <button className="nextBtn">
+          Next
+          <FontAwesomeIcon icon={faChevronRight} />
+        </button>
+      </div>
     </div>
   );
 };
